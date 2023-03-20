@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+
+.body {
+  background-color: #333333;
+  font-family: "Josefin Sans", "Open Sans";
+
+  /* TOP HEADER SECTION START */
+}
+.header {
+  font-family: "Anton";
+  /* background-color: #000103; */
+  color: #f0edee;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  gap: 5rem;
+  margin-top: 2rem;
+  padding: rem;
+  white-space: nowrap;
+  font-size: 5.5rem;
+}
+.mini-section {
+  display: flex;
+  justify-content: center;
+  gap: 7rem;
+  margin-top: 1rem;
+  color: #90ddf0;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* TOP HEADER SECTION END */
+
+/* WELCOME SECTION START*/
+
+.main-heading {
+  margin-top: 2rem;
+  color: #f0edee;
+  font-weight: 700;
+  font-size: 5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.big-hello {
+  font-size: 6rem;
+  color: #90ddf0;
+  transition: 1sec;
+
+  margin-top: 2rem;
+
+  font-weight: 700;
+
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.section {
+  font-family: "Josefin Sans";
+  margin-top: 2rem;
+  color: #f0edee;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+/* WELCOME SECTION END */
+
+/* WHO AM I SECTION START */
+
+/* WHO AM I SECTION END */
+
+/* PROJECTS SECTION START */
+.project-subheading {
+  font-family: "Josefin Sans";
+  margin-top: 2rem;
+  color: #f0edee;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.project-description {
+  font-family: "Josefin Sans";
+  margin-top: 2rem;
+  color: #f0edee;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+/* PROJECTS SECTION END */
+
+/* HIT ME UP SECTION START */
+
+/* HIT ME UP SECTION END */
