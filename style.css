@@ -99,5 +99,15 @@
 /* PROJECTS SECTION END */
 
 /* HIT ME UP SECTION START */
-
+.email {
+  font-family: "Josefin Sans";
+  margin-top: 2rem;
+  color: #f0edee;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  justify-content: center;
+  align-content: center;
+}
 /* HIT ME UP SECTION END */
