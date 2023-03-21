@@ -39,6 +39,7 @@
 /* WELCOME SECTION START*/
 
 .main-heading {
+  text-align: center;
   margin-top: 2rem;
   color: #f0edee;
   font-weight: 700;
@@ -107,8 +108,7 @@
   font-size: 3rem;
   margin-left: 3rem;
   margin-right: 3rem;
-  justify-content: center;
-  align-content: center;
+  text-align: center;
   margin-bottom: 2rem;
 }
 /* HIT ME UP SECTION END */
