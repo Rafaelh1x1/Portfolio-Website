@@ -101,9 +101,10 @@
 /* WELCOME SECTION END */
 
 /* WHO AM I SECTION START */
-#who-am-i-section {
+.who-am-i-container {
   height: 30rem;
 }
+
 /* WHO AM I SECTION END */
 
 /* PROJECTS SECTION START */
