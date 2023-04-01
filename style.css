@@ -88,9 +88,6 @@
   margin-right: 3rem;
 }
 
-#welcome {
-}
-
 .section {
   font-family: "Josefin Sans";
   margin-top: 2rem;
@@ -104,7 +101,9 @@
 /* WELCOME SECTION END */
 
 /* WHO AM I SECTION START */
-
+#who-am-i-section {
+  height: 30rem;
+}
 /* WHO AM I SECTION END */
 
 /* PROJECTS SECTION START */
