@@ -26,6 +26,7 @@
   display: inline-block;
   animation: scrolling-text 10s linear infinite;
   padding-right: calc(100% + 100vw);
+  transition: transform 0.3s ease-out;
 }
 
 @keyframes scrolling-text {
