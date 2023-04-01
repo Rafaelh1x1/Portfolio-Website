@@ -16,17 +16,23 @@
   overflow: hidden;
 }
 
-.moving-text {
-  display: inline-block;
-  animation: move-left 5s linear infinite;
+.scrolling-text {
+  width: 100%;
+  overflow: hidden;
   white-space: nowrap;
 }
 
-@keyframes move-left {
-  from {
+.scrolling-text p {
+  display: inline-block;
+  animation: scrolling-text 20s linear infinite;
+  padding-right: 100%;
+}
+
+@keyframes scrolling-text {
+  0% {
     transform: translateX(100%);
   }
-  to {
+  100% {
     transform: translateX(-100%);
   }
 }
