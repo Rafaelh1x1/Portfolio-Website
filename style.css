@@ -11,16 +11,23 @@
 
   /* TOP HEADER SECTION START */
 }
-.rotate-text {
-  animation: rotate-left 2s linear infinite;
+.moving-text-container {
+  overflow: hidden;
+  position: relative;
 }
 
-@keyframes rotate-left {
-  from {
-    transform: rotate(0deg);
+.moving-text {
+  position: absolute;
+  white-space: nowrap;
+  animation: move-left 5s linear infinite;
+}
+
+@keyframes move-left {
+  0% {
+    transform: translateX(100%);
   }
-  to {
-    transform: rotate(-360deg);
+  100% {
+    transform: translateX(-100%);
   }
 }
 
