@@ -12,21 +12,21 @@
   /* TOP HEADER SECTION START */
 }
 .moving-text-container {
+  width: 100%;
   overflow: hidden;
-  position: relative;
 }
 
 .moving-text {
-  position: absolute;
-  white-space: nowrap;
+  display: inline-block;
   animation: move-left 5s linear infinite;
+  white-space: nowrap;
 }
 
 @keyframes move-left {
-  0% {
+  from {
     transform: translateX(100%);
   }
-  100% {
+  to {
     transform: translateX(-100%);
   }
 }
