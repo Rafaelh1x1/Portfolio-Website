@@ -104,7 +104,9 @@
 .who-am-i-container {
   height: 30rem;
 }
-
+.who-am-i-section {
+  width: 40vw;
+}
 /* WHO AM I SECTION END */
 
 /* PROJECTS SECTION START */
