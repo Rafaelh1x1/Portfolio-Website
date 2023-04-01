@@ -11,6 +11,19 @@
 
   /* TOP HEADER SECTION START */
 }
+.rotate-text {
+  animation: rotate-left 2s linear infinite;
+}
+
+@keyframes rotate-left {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
 .header {
   font-family: "Anton";
   /* background-color: #000103; */
