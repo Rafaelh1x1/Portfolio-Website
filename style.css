@@ -11,10 +11,7 @@
 }
 /* TOP HEADER SECTION START */
 
-.moving-text-container {
-  width: 100%;
-  overflow: hidden;
-}
+/* STYLING THAT MAKES HEADER ROTATE */
 
 .scrolling-text {
   width: 100%;
