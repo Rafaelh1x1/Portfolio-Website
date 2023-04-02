@@ -21,8 +21,8 @@
 
 .scrolling-text p {
   display: inline-block;
-  animation: scrolling-text 15s linear infinite;
-  padding-right: calc(100% + 100vw);
+  animation: scrolling-text 10s linear infinite;
+  padding-right: calc(100% + 20vw);
   transition: transform 0.3s ease-out;
 }
 
