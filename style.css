@@ -8,9 +8,9 @@
 .body {
   background-color: #333333;
   font-family: "Josefin Sans", "Open Sans";
-
-  /* TOP HEADER SECTION START */
 }
+/* TOP HEADER SECTION START */
+
 .moving-text-container {
   width: 100%;
   overflow: hidden;
