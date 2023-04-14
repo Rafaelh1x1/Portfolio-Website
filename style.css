@@ -37,8 +37,8 @@
 /* TOP HEADER SECTION END */
 
 .border-container {
-  padding-left: 30rem;
-  padding-right: 30rem;
+  padding-left: 25vw;
+  padding-right: 25vw;
 }
 
 /* WELCOME SECTION START*/
@@ -84,13 +84,14 @@
   display: flex;
   justify-content: center;
   gap: 2rem;
+  padding-bottom: 2rem;
 }
 .who-am-i-section {
   width: 50vw;
 }
 .portrait {
-  width: auto;
-  height: auto;
+  width: 25vw;
+  height: 25vw;
 }
 /* WHO AM I SECTION END */
 
