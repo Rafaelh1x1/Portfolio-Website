@@ -11,30 +11,6 @@
 }
 /* TOP HEADER SECTION START */
 
-/* STYLING THAT MAKES HEADER ROTATE */
-
-.scrolling-text {
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.scrolling-text p {
-  display: inline-block;
-  animation: scrolling-text 15s linear infinite;
-  padding-right: calc(100% + 100vw);
-  transition: transform 0.3s ease-out;
-}
-
-@keyframes scrolling-text {
-  0% {
-    transform: translateX(120%);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
 .header {
   font-family: "Anton";
   /* background-color: #000103; */
