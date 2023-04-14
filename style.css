@@ -36,6 +36,11 @@
 
 /* TOP HEADER SECTION END */
 
+.border-container {
+  padding-left: 30rem;
+  padding-right: 30rem;
+}
+
 /* WELCOME SECTION START*/
 
 .main-heading {
