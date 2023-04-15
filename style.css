@@ -11,6 +11,12 @@
 }
 /* TOP HEADER SECTION START */
 
+/* Makes page not adjust to huge banner*/
+
+.big-banner {
+  overflow: hidden;
+}
+
 .header {
   font-family: "Anton";
   /* background-color: #000103; */
