@@ -77,7 +77,7 @@
   margin-top: 2rem;
   color: #f0edee;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 24px;
   margin-left: 3rem;
   margin-right: 3rem;
 }
@@ -96,8 +96,8 @@
   width: 50vw;
 }
 .portrait {
-  width: 25vw;
-  height: 25vw;
+  width: auto;
+  height: auto;
 }
 /* WHO AM I SECTION END */
 
