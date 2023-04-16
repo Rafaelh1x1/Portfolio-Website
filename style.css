@@ -78,8 +78,8 @@
   color: #f0edee;
   font-weight: 500;
   font-size: calc(1.5vw + 1em);
-  margin-left: 3rem;
-  margin-right: 3rem;
+  /* margin-left: 3rem;
+  margin-right: 3rem; */
 }
 
 /* WELCOME SECTION END */
@@ -93,10 +93,11 @@
   padding-bottom: 2rem;
 }
 .who-am-i-section {
-  width: 50vw;
+  width: 50%;
 }
 .portrait {
-  width: auto;
+  margin-top: 1rem;
+  max-width: auto;
   height: auto;
 }
 /* WHO AM I SECTION END */

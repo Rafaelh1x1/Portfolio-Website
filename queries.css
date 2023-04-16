@@ -4,3 +4,9 @@
     padding-right: 10vw;
   }
 }
+
+@media (max-width: 968px) {
+  .section {
+    font-size: calc(1vw + 1em);
+  }
+}
