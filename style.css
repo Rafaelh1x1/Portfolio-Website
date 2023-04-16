@@ -11,7 +11,7 @@
 
 .body {
   background-color: #101810;
-  font-family: "Josefin Sans", "Open Sans";
+  font-family: "Josefin Sans", "Sans-Serif";
 }
 /* TOP HEADER SECTION START */
 
@@ -40,6 +40,7 @@
   justify-content: center;
   gap: 7rem;
   margin-top: 1rem;
+  margin-bottom: 15rem;
   color: var(--description-text);
   font-weight: 500;
   font-size: calc(1vw + 1em);
@@ -80,11 +81,10 @@
 .section {
   font-family: "Josefin Sans";
   margin-top: 2rem;
+  margin-bottom: 10rem;
   color: var(--description-text);
   font-weight: 500;
   font-size: calc(1.5vw + 1em);
-  /* margin-left: 3rem;
-  margin-right: 3rem; */
 }
 
 /* WELCOME SECTION END */
@@ -127,18 +127,27 @@
   margin-left: 3rem;
   margin-right: 3rem;
 }
+
+.work-in-progress-description {
+  margin-bottom: 10rem;
+}
 /* PROJECTS SECTION END */
 
 /* HIT ME UP SECTION START */
+
+.hit-me-up-section {
+  margin-bottom: 5rem;
+}
+
 .email {
   font-family: "Josefin Sans";
   margin-top: 2rem;
-  color: #ccfccb;
+  color: #5a875a;
   font-weight: 500;
   font-size: calc(3vw + 1em);
   margin-left: 3rem;
   margin-right: 3rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 20rem;
 }
 /* HIT ME UP SECTION END */
