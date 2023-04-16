@@ -87,6 +87,10 @@
   font-size: calc(1.5vw + 1em);
 }
 
+.welcome-section {
+  margin-bottom: 15rem;
+}
+
 /* WELCOME SECTION END */
 
 /* WHO AM I SECTION START */
@@ -99,9 +103,11 @@
 }
 .who-am-i-section {
   width: 50%;
+  margin-bottom: 0;
 }
 .portrait {
   margin-top: 1rem;
+  margin-bottom: 10rem;
   width: auto;
   height: auto;
 }
@@ -148,6 +154,7 @@
   margin-left: 3rem;
   margin-right: 3rem;
   text-align: center;
+  justify-items: center;
   margin-bottom: 20rem;
 }
 /* HIT ME UP SECTION END */
