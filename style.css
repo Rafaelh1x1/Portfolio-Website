@@ -97,7 +97,7 @@
 }
 .portrait {
   margin-top: 1rem;
-  max-width: auto;
+  width: auto;
   height: auto;
 }
 /* WHO AM I SECTION END */

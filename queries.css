@@ -6,7 +6,31 @@
 }
 
 @media (max-width: 968px) {
+  .mini-section {
+    gap: 5rem;
+  }
   .section {
     font-size: calc(1vw + 1em);
+  }
+}
+
+@media (max-width: 742px) {
+  .mini-section {
+    gap: 2.5rem;
+  }
+  .who-am-i-container {
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    flex-direction: column;
+  }
+  .portrait {
+    justify-content: center;
+    height: 50%;
+    width: 50%;
+  }
+  .who-am-i-section {
+    width: 100%;
   }
 }
