@@ -4,9 +4,13 @@
   box-sizing: border-box;
   /* overflow: hidden; */
 }
+/* Text in project containers, and under main heading have same color */
+:root {
+  --description-text: #416241;
+}
 
 .body {
-  background-color: #333333;
+  background-color: #101810;
   font-family: "Josefin Sans", "Open Sans";
 }
 /* TOP HEADER SECTION START */
@@ -20,7 +24,8 @@
 .header {
   font-family: "Anton";
   /* background-color: #000103; */
-  color: #f0edee;
+  color: #182518;
+  background-color: #5a875a;
   display: flex;
   align-content: center;
   justify-content: center;
@@ -35,7 +40,7 @@
   justify-content: center;
   gap: 7rem;
   margin-top: 1rem;
-  color: #90ddf0;
+  color: var(--description-text);
   font-weight: 500;
   font-size: calc(1vw + 1em);
 }
@@ -52,7 +57,7 @@
 .main-heading {
   text-align: center;
   margin-top: 2rem;
-  color: #f0edee;
+  color: #5a875a;
   font-weight: 700;
   font-size: calc(5vw + 1em);
   margin-left: 3rem;
@@ -75,7 +80,7 @@
 .section {
   font-family: "Josefin Sans";
   margin-top: 2rem;
-  color: #f0edee;
+  color: var(--description-text);
   font-weight: 500;
   font-size: calc(1.5vw + 1em);
   /* margin-left: 3rem;
@@ -106,8 +111,8 @@
 .project-subheading {
   font-family: "Josefin Sans";
   margin-top: 2rem;
-  color: #f0edee;
-  font-weight: 500;
+  color: #619461;
+  font-weight: 700;
   font-size: calc(1.5vw + 1em);
   margin-left: 3rem;
   margin-right: 3rem;
@@ -116,7 +121,7 @@
 .project-description {
   font-family: "Josefin Sans";
   margin-top: 2rem;
-  color: #f0edee;
+  color: var(--description-text);
   font-weight: 500;
   font-size: calc(1.5vw + 1em);
   margin-left: 3rem;
@@ -128,7 +133,7 @@
 .email {
   font-family: "Josefin Sans";
   margin-top: 2rem;
-  color: #f0edee;
+  color: #ccfccb;
   font-weight: 500;
   font-size: calc(3vw + 1em);
   margin-left: 3rem;
