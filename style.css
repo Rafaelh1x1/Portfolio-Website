@@ -8,15 +8,18 @@
 :root {
   --description-text: #416241;
 }
+:root {
+  --font-family-text: "Fira Code";
+}
 
 .body {
   background-color: #101810;
-  font-family: "Josefin Sans", "Sans-Serif";
+  font-family: "Fira Code", "Sans-Serif";
 }
 /* TOP HEADER SECTION START */
 
 .top-header {
-  font-family: "Anton";
+  font-family: var(--font-family-text);
   /* background-color: #000103; */
   color: #182518;
   background-color: #5a875a;
@@ -31,7 +34,7 @@
   overflow: hidden;
 }
 .mini-section {
-  font-family: "Anton";
+  font-family: var(--font-family-text);
   font-size: calc(1vw + 1em);
   font-weight: 300;
   color: #5a875a;
@@ -66,7 +69,7 @@
 }
 
 .main-heading {
-  font-family: "Anton";
+  font-family: var(--font-family-text);
   text-align: center;
   margin-top: 2rem;
   color: #5a875a;
@@ -93,7 +96,7 @@
 }
 
 .section {
-  font-family: "Josefin Sans";
+  font-family: var(--font-family-text);
   margin-top: 2rem;
   margin-bottom: 10rem;
   color: var(--description-text);
@@ -138,7 +141,7 @@
 
 /* PROJECTS SECTION START */
 .project-subheading {
-  font-family: "Anton";
+  font-family: var(--font-family-text);
   margin-top: 2rem;
   color: #619461;
   font-weight: 300;
@@ -149,7 +152,7 @@
 }
 
 .project-description {
-  font-family: "Josefin Sans";
+  font-family: var(--font-family-text);
   margin-top: 2rem;
   color: var(--description-text);
   font-weight: 500;
@@ -178,7 +181,7 @@
 }
 
 .email {
-  font-family: "Josefin Sans";
+  font-family: var(--font-family-text);
   margin-top: 2rem;
   color: #5a875a;
   font-weight: 500;
