@@ -72,18 +72,17 @@
 }
 
 .welcome-section {
-  margin-bottom: 15rem;
+  margin-bottom: 25rem;
 }
 
 /* WELCOME SECTION END */
 
 /* WHO AM I SECTION START */
 .who-am-i-container {
-  height: 30rem;
   display: flex;
   justify-content: center;
   gap: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 10rem;
 }
 .who-am-i-section {
   width: 50%;
@@ -92,7 +91,7 @@
 .portrait {
   margin-top: 1rem;
   margin-bottom: 10rem;
-  width: auto;
+  width: 23vw;
   height: auto;
 }
 /* WHO AM I SECTION END */
