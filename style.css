@@ -31,6 +31,7 @@
   padding: rem;
   white-space: nowrap;
   font-size: calc(5.5vw + 1em);
+  font-weight: 500;
   overflow: hidden;
 }
 .mini-section {
@@ -73,7 +74,7 @@
   text-align: center;
   margin-top: 2rem;
   color: #5a875a;
-  font-weight: 700;
+  font-weight: 500;
   font-size: calc(3vw + 1em);
   margin-left: 3rem;
   margin-right: 3rem;
@@ -182,11 +183,11 @@
   color: #5a875a;
   font-weight: 500;
   font-size: calc(3vw + 1em);
-  margin-left: 3rem;
-  margin-right: 3rem;
+  /* padding-left: 1rem; */
+  /* padding-right: 1rem; */
   text-align: center;
   justify-items: center;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
 }
 
 .mini-link {
