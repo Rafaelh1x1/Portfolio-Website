@@ -61,8 +61,8 @@
 
 /* WELCOME SECTION START*/
 
-.welcome {
-  animation: welcome-flash 2s infinite;
+.main-heading {
+  animation: main-heading-flash 2s infinite;
 }
 
 .main-heading {
@@ -80,7 +80,7 @@
 
 /*  */
 
-@keyframes welcome-flash {
+@keyframes main-heading-flash {
   0% {
     opacity: 1;
   }
@@ -105,15 +105,25 @@
   margin-bottom: 25rem;
 }
 
+.welcome-section-container {
+  border-top: #5a875a 0.2rem solid;
+}
+
 /* WELCOME SECTION END */
 
 /* WHO AM I SECTION START */
 .who-am-i-container {
+  border-top: #5a875a 0.2rem solid;
   display: flex;
   justify-content: center;
   gap: 2rem;
   padding-bottom: 10rem;
 }
+
+.who-am-i {
+  /* border-top: #5a875a 0.2rem solid; */
+}
+
 .who-am-i-section {
   width: 50%;
   margin-bottom: 0;
@@ -148,12 +158,20 @@
   margin-right: 3rem;
 }
 
+.project-section-container-1 {
+  border-top: #5a875a 0.2rem solid;
+}
+
 .work-in-progress-description {
   margin-bottom: 10rem;
 }
 /* PROJECTS SECTION END */
 
 /* HIT ME UP SECTION START */
+
+.hit-me-up-section-container {
+  border-top: #5a875a 0.2rem solid;
+}
 
 .hit-me-up-section {
   margin-bottom: 5rem;
