@@ -7,7 +7,7 @@
 
 @media (max-width: 968px) {
   .mini-section {
-    gap: 5rem;
+    gap: 3rem;
   }
   .section {
     font-size: calc(1vw + 1em);

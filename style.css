@@ -15,8 +15,6 @@
 }
 /* TOP HEADER SECTION START */
 
-/* Makes page not adjust to huge banner*/
-
 .top-header {
   font-family: "Anton";
   /* background-color: #000103; */
@@ -33,15 +31,26 @@
   overflow: hidden;
 }
 .mini-section {
-  display: flex;
-  justify-content: center;
-  gap: 7rem;
+  font-family: "Anton";
+  font-size: calc(1vw + 1em);
+  font-weight: 300;
+  color: #5a875a;
   margin-top: 1rem;
   margin-bottom: 15rem;
-  color: var(--description-text);
-  font-weight: 500;
-  font-size: calc(1vw + 1em);
+  border-bottom: #5a875a 0.2rem solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }
+
+/* Potential Design for mini-bar interface */
+
+/* .mini-section-item {
+  padding: 0.5rem;
+  background-color: #619461;
+  border-radius: 5px;
+} */
 
 /* TOP HEADER SECTION END */
 
@@ -52,7 +61,12 @@
 
 /* WELCOME SECTION START*/
 
+.welcome {
+  animation: welcome-flash 2s infinite;
+}
+
 .main-heading {
+  font-family: "Anton";
   text-align: center;
   margin-top: 2rem;
   color: #5a875a;
@@ -60,6 +74,22 @@
   font-size: calc(3vw + 1em);
   margin-left: 3rem;
   margin-right: 3rem;
+
+  letter-spacing: 0.5rem;
+}
+
+/*  */
+
+@keyframes welcome-flash {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .section {
@@ -98,13 +128,14 @@
 
 /* PROJECTS SECTION START */
 .project-subheading {
-  font-family: "Josefin Sans";
+  font-family: "Anton";
   margin-top: 2rem;
   color: #619461;
-  font-weight: 700;
+  font-weight: 300;
   font-size: calc(1.5vw + 1em);
   margin-left: 3rem;
   margin-right: 3rem;
+  letter-spacing: 0.5rem;
 }
 
 .project-description {
