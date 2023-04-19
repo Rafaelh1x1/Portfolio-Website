@@ -82,8 +82,6 @@
   letter-spacing: 0.5rem;
 }
 
-/*  */
-
 @keyframes main-heading-flash {
   0% {
     opacity: 1;
@@ -96,6 +94,10 @@
   }
 }
 
+.welcome-section-container {
+  border-top: #5a875a 0.2rem solid;
+}
+
 .section {
   font-family: var(--font-family-text);
   margin-top: 2rem;
@@ -105,30 +107,16 @@
   font-size: calc(1vw + 1em);
 }
 
+.my-name-is {
+  font-family: var(--font-family-text);
+  margin-top: 2rem;
+  margin-bottom: 0.1rem;
+  color: var(--description-text);
+  font-weight: 500;
+  font-size: calc(3vw + 1em);
+}
 .welcome-section {
   margin-bottom: 25rem;
-}
-
-.my-name-is-1 {
-  font-family: var(--font-family-text);
-  margin-top: 2rem;
-  margin-bottom: 10rem;
-  color: var(--description-text);
-  font-weight: 500;
-  font-size: calc(1vw + 1em);
-}
-
-.my-name-is-2 {
-  font-family: var(--font-family-text);
-  margin-top: 2rem;
-  margin-bottom: 10rem;
-  color: var(--description-text);
-  font-weight: 500;
-  font-size: calc(1vw + 1em);
-}
-
-.welcome-section-container {
-  border-top: #5a875a 0.2rem solid;
 }
 
 /* WELCOME SECTION END */
