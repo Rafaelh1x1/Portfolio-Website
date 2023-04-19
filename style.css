@@ -109,6 +109,24 @@
   margin-bottom: 25rem;
 }
 
+.my-name-is-1 {
+  font-family: var(--font-family-text);
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  color: var(--description-text);
+  font-weight: 500;
+  font-size: calc(1vw + 1em);
+}
+
+.my-name-is-2 {
+  font-family: var(--font-family-text);
+  margin-top: 2rem;
+  margin-bottom: 10rem;
+  color: var(--description-text);
+  font-weight: 500;
+  font-size: calc(1vw + 1em);
+}
+
 .welcome-section-container {
   border-top: #5a875a 0.2rem solid;
 }
