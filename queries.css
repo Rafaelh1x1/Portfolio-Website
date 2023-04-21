@@ -34,10 +34,3 @@
     width: 100%;
   }
 }
-
-@media (max-width: 516px) {
-  .border-container {
-    padding-left: 2rem;
-    padding-right: 2rem;
-  }
-}
