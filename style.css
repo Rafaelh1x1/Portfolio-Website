@@ -176,10 +176,10 @@
 .samnsilver-skill-list {
   display: flex;
   flex-direction: column;
-}
-.samnsilver-skill {
+  display: flex;
+  flex-direction: column;
   font-family: var(--font-family-text);
-  margin-top: 2rem;
+  gap: 1rem;
   color: var(--description-text);
   font-weight: 500;
   font-size: calc(1.5vw + 1em);
@@ -189,6 +189,29 @@
   width: 30vw;
   height: auto;
   filter: hue-rotate(100deg) grayscale(0.5) contrast(0.5) brightness(1);
+}
+
+.project-section-container-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
+  border-top: #5a875a 0.2rem solid;
+}
+
+.project-2-skill-list {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-family-text);
+  gap: 1rem;
+  color: var(--description-text);
+  font-weight: 500;
+  font-size: calc(1.5vw + 1em);
+}
+
+.project-2-img {
+  width: 30vw;
+  height: auto;
+  filter: contrast(0.9) brightness(1);
 }
 
 .work-in-progress-description {
