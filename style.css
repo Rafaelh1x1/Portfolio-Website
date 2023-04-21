@@ -148,7 +148,7 @@
   margin-top: 2rem;
   color: #619461;
   font-weight: 300;
-  font-size: calc(1.5vw + 1em);
+  font-size: calc(2vw + 1em);
   margin-left: 3rem;
   margin-right: 3rem;
   letter-spacing: 0.5rem;
@@ -159,13 +159,32 @@
   margin-top: 2rem;
   color: var(--description-text);
   font-weight: 500;
-  font-size: calc(1.5vw + 1em);
-  margin-left: 3rem;
-  margin-right: 3rem;
+  font-size: calc(0.3vw + 1em);
 }
 
 .project-section-container-1 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr;
   border-top: #5a875a 0.2rem solid;
+}
+
+.samnsilver-skill-list {
+  display: flex;
+  flex-direction: column;
+}
+.samnsilver-skill {
+  font-family: var(--font-family-text);
+  margin-top: 2rem;
+  color: var(--description-text);
+  font-weight: 500;
+  font-size: calc(1.5vw + 1em);
+}
+
+.project-samnsilver-img {
+  width: 30vw;
+  height: auto;
+  filter: hue-rotate(100deg) grayscale(0.5) contrast(0.5) brightness(1);
 }
 
 .work-in-progress-description {
