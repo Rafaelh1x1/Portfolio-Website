@@ -6,6 +6,8 @@ const errorHandler = require("./utils/errorHandler");
 
 app.use(api, router);
 
+app.use(express.static(path.join(__dirname, "/")));
+
 app.all("*", (req, res, next) => {
   next(new AppError(`The URL ${req.originalUrl} does not exists`, 404));
 });
