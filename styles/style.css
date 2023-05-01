@@ -58,6 +58,9 @@
 .open-nav {
   display: none;
 }
+.close-nav {
+  display: none;
+}
 /* TOP HEADER SECTION END */
 
 .border-container {

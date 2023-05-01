@@ -31,6 +31,9 @@
     display: block;
     color: #5a875a;
   }
+  .close-nav {
+    display: none;
+  }
   .who-am-i-container {
     justify-content: center;
     align-items: center;
