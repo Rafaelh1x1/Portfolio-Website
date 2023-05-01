@@ -11,8 +11,6 @@ openNavEl.addEventListener("click", function () {
   miniSection.style.display = "flex";
   miniSection.style.marginBottom = "0";
   miniSectionItem.classList.add("flicker-in-1");
-
-  console.log("poop");
 });
 
 closeNavEl.addEventListener("click", function () {
@@ -20,5 +18,4 @@ closeNavEl.addEventListener("click", function () {
   closeNavEl.style.display = "none";
   miniSection.style.display = "none";
   miniSectionItem.classList.remove("flicker-in-1");
-  console.log("poop");
 });
