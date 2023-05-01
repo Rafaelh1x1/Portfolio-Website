@@ -19,9 +19,16 @@
     flex-direction: column;
     display: none;
   }
-  .open-nav {
+  .nav-svg {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .open-nav {
+    display: block;
     color: #5a875a;
   }
   .who-am-i-container {
