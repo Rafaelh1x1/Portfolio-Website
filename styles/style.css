@@ -47,15 +47,17 @@
   align-items: center;
   gap: 5rem;
 }
+.mini-section-closed {
+  display: none;
+}
 
-/* Potential Design for mini-bar interface */
+.mini-section-open {
+  display: block;
+}
 
-/* .mini-section-item {
-  padding: 0.5rem;
-  background-color: #619461;
-  border-radius: 5px;
-} */
-
+.open-nav {
+  display: none;
+}
 /* TOP HEADER SECTION END */
 
 .border-container {

@@ -16,7 +16,13 @@
 
 @media (max-width: 742px) {
   .mini-section {
-    gap: 2.5rem;
+    flex-direction: column;
+    display: none;
+  }
+  .open-nav {
+    display: flex;
+    align-items: center;
+    color: #5a875a;
   }
   .who-am-i-container {
     justify-content: center;
