@@ -33,6 +33,7 @@
   }
   .close-nav {
     display: none;
+    margin-bottom: 1rem;
   }
   .who-am-i-container {
     justify-content: center;

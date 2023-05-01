@@ -19,3 +19,23 @@ closeNavEl.addEventListener("click", function () {
   miniSection.style.display = "none";
   miniSectionItem.classList.remove("flicker-in-1");
 });
+
+openNavEl.addEventListener("mouseover", function () {
+  openNavEl.style.color = "#101810";
+  openNavEl.style.backgroundColor = "#416241";
+});
+
+openNavEl.addEventListener("mouseout", function () {
+  openNavEl.style.color = "#416241";
+  openNavEl.style.backgroundColor = "#101810";
+});
+
+closeNavEl.addEventListener("mouseover", function () {
+  closeNavEl.style.color = "#101810";
+  closeNavEl.style.backgroundColor = "#416241";
+});
+
+closeNavEl.addEventListener("mouseout", function () {
+  closeNavEl.style.color = "#416241";
+  closeNavEl.style.backgroundColor = "#101810";
+});

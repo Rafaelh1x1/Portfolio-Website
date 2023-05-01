@@ -47,9 +47,7 @@
   align-items: center;
   gap: 5rem;
 }
-.mini-section-item {
-  /* empty for now */
-}
+
 .flicker-in-1 {
   animation: flicker-in-1 2s linear both;
 }
