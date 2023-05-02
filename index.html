@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/queries.css" />
-    <script async src="scripts/script.js"></script>
+    <script defer src="scripts/script.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -23,11 +23,11 @@
   </head>
   <body class="body">
     <!-- TOP HEADER SECTION START -->
-    <div class="top-header">
+    <div class="top-header hidden">
       <p>RAFAEL HUNG | RAFAEL HUNG | RAFAEL HUNG | RAFAEL HUNG</p>
     </div>
 
-    <mini-section class="mini-section" id="mini-section">
+    <mini-section class="mini-section hidden" id="mini-section">
       <p class="mini-section-item">WHO AM I?!</p>
       <p class="mini-section-item">STUFF I'VE MADE</p>
       <p class="mini-section-item">HIT ME UP</p>
@@ -75,8 +75,8 @@
     <div class="border-container">
       <!-- WELCOME SECTION START -->
 
-      <p class="welcome main-heading">WELCOME!</p>
-      <div class="welcome-section-container">
+      <p class="welcome main-heading hidden">WELCOME!</p>
+      <div class="welcome-section-container hidden">
         <p class="my-name-is">My name is Rafael Hung.</p>
 
         <p class="welcome-section section">
@@ -90,8 +90,8 @@
 
       <!--WHO AM I SECTION START -->
 
-      <p class="who-am-i main-heading">WHO AM I?!</p>
-      <div class="who-am-i-container">
+      <p class="who-am-i main-heading hidden">WHO AM I?!</p>
+      <div class="who-am-i-container hidden">
         <p class="who-am-i-section section">
           As a developer, I have experience working with a lot of front-end
           technologies, HTML, CSS, JavaScript, all that jazz. Besides that I
@@ -109,10 +109,10 @@
 
       <!-- PROJECTS SECTION START -->
 
-      <p class="projects main-heading">PROJECTS</p>
-      <div class="container-underline"></div>
-      <p class="sam-n-silver project-subheading">SAM N SILVER</p>
-      <div class="project-section-container-1">
+      <p class="projects main-heading hidden">PROJECTS</p>
+      <div class="container-underline hidden"></div>
+      <p class="sam-n-silver project-subheading hidden">SAM N SILVER</p>
+      <div class="project-section-container-1 hidden">
         <div class="samnsilver-skill-list">
           <p class="samnsilver-skill">HTML</p>
           <p class="samnsilver-skill">CSS</p>
@@ -126,13 +126,13 @@
           class="project-samnsilver-img"
         />
         <div></div>
-        <p class="sam-n-silver-description project-description">
+        <p class="sam-n-silver-description project-description hidden">
           Static business card website for the Etsy business, Sam N Silver.
           Website links redirect customers directly to Etsy product posting.
         </p>
       </div>
-      <p class="work-in-progress project-subheading">WORK IN PROGRESS</p>
-      <div class="project-section-container-2">
+      <p class="work-in-progress project-subheading hidden">WORK IN PROGRESS</p>
+      <div class="project-section-container-2 hidden">
         <div class="project-2-skill-list">
           <p class="project-2-skill">React</p>
           <p class="project-2-skill">REST API</p>
@@ -146,7 +146,7 @@
           class="project-2-img"
         />
         <div></div>
-        <p class="work-in-progress-description project-description">
+        <p class="work-in-progress-description project-description hidden">
           I have various other projects that I am working on and designing still
           but it might be a little or long time until those ever get released
           but keep an eye out they are going to be pretty neat if I do say so
@@ -157,14 +157,14 @@
 
       <!-- HIT ME UP SECTION -->
 
-      <p class="hit-me-up main-heading">HIT ME UP!</p>
-      <div class="hit-me-up-section-container">
+      <p class="hit-me-up main-heading hidden">HIT ME UP!</p>
+      <div class="hit-me-up-section-container hidden">
         <p class="hit-me-up-section section">
           If you liked what you saw and my skills match what you need don't be
           scared to hit me up at my email!
         </p>
       </div>
-      <p class="email">hungrafael37@gmail.com</p>
+      <p class="email hidden">hungrafael37@gmail.com</p>
 
       <div class="links">
         <a href="https://github.com/Rafaelh1x1">
@@ -173,7 +173,7 @@
             width="50"
             height="50"
             viewBox="0 0 24 24"
-            class="mini-link"
+            class="mini-link hidden"
             add
             fill="currentColor"
           >
