@@ -81,3 +81,12 @@
     font-size: calc(2vw + 1em);
   }
 }
+
+@media (max-width: 550px) {
+  .portrait {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    width: 70vw;
+    height: auto;
+  }
+}
