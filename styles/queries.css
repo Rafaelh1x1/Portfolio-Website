@@ -12,6 +12,24 @@
   .section {
     font-size: calc(1vw + 1em);
   }
+  .who-am-i-container {
+    border-top: #5a875a 0.2rem solid;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 10rem;
+  }
+
+  .who-am-i-section {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .portrait {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    width: 30vw;
+    height: auto;
+  }
 }
 
 @media (max-width: 742px) {
@@ -49,5 +67,17 @@
   }
   .who-am-i-section {
     width: 100%;
+  }
+  .portrait {
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+    width: 50vw;
+    height: auto;
+  }
+  .project-description {
+    grid-column: 1 / 4;
+  }
+  .email {
+    font-size: calc(2vw + 1em);
   }
 }
