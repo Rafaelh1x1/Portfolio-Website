@@ -11,6 +11,7 @@
 :root {
   --font-family-text: "Fira Code";
 }
+/* ANIMATIONS */
 
 @keyframes glow {
   from {
@@ -127,6 +128,22 @@
     opacity: 1;
   }
 }
+/* LINKS */
+
+a {
+  color: #496e49;
+  text-decoration: none;
+} /* Unvisited link  */
+a:visited {
+  color: #496e49;
+} /* Visited link    */
+a:hover {
+  color: #496e49;
+} /* Mouse over link */
+a:active {
+  color: #496e49;
+} /* Selected link   */
+
 .hidden {
   opacity: 0;
 }

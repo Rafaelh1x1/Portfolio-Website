@@ -57,6 +57,16 @@ closeNavEl.addEventListener("mouseout", function () {
   closeNavEl.style.color = "#416241";
   closeNavEl.style.backgroundColor = "#101810";
 });
+// POTENTIAL CODE
+
+// miniSectionItem.addEventListener("mouseover", function () {
+//   miniSectionItem.style.textShadow =
+//     "0 0 10px #496e49, 0 0 20px #496e49, 0 0 30px #496e49";
+// });
+
+// miniSectionItem.addEventListener("mouseout", function () {
+//   miniSectionItem.style.textShadow = "none";
+// });
 
 // SCREEN SIZE CHANGES
 // if (vw < 742) {
