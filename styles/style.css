@@ -13,6 +13,15 @@
 }
 /* ANIMATIONS */
 
+/* @keyframes loopty-loop {
+  0% {
+    transform: translateX(100rem);
+  }
+  100% {
+    transform: translate(-100rem);
+  }
+} */
+
 @keyframes glow {
   from {
     text-shadow: 0 0 10px #496e49, 0 0 20px #496e49, 0 0 30px #496e49;
