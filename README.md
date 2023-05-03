@@ -1,3 +1,2 @@
 # Portfolio-Website
-
-As of right now this is just a skeleton for what I later plan to be my portfolio website when I have a few more things to showcase.
+Hello, this is the code for my portfolio website! Pretty fun project I learned a lot about diffrent ways to use JavaScript and CSS Animations.
