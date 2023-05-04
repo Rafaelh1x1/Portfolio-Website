@@ -74,3 +74,20 @@ closeNavEl.addEventListener("mouseout", function () {
 // } else if (vw > 742) {
 //   openNavEl.classList.remove("hidden");
 // }
+const scrollLinks = document.querySelectorAll(".scroll-link");
+
+scrollLinks.forEach((link) => {
+  link.addEventListener("click", (event) => {
+    // Prevent the default link behavior
+    event.preventDefault();
+
+    // Get the target element ID from the link's "data-target" attribute
+    const targetId = link.getAttribute("data-target");
+
+    // Get the target element by ID
+    const targetElement = document.querySelector(targetId);
+
+    // Scroll to the target element
+    targetElement.scrollIntoView({ behavior: "smooth" });
+  });
+});
