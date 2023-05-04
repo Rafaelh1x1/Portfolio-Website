@@ -33,6 +33,15 @@
 }
 
 @media (max-width: 742px) {
+  @keyframes move-left {
+    from {
+      transform: translateX(220%);
+    }
+    to {
+      transform: translateX(-220%);
+    }
+  }
+
   .mini-section {
     flex-direction: column;
     display: none;
