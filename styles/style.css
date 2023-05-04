@@ -276,9 +276,6 @@ a:active {
 .who-am-i-container {
   border-top: #5a875a 0.2rem solid;
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  padding-bottom: 10rem;
 }
 
 .who-am-i-section {
@@ -291,6 +288,7 @@ a:active {
   width: 23vw;
   height: auto;
 }
+
 /* WHO AM I SECTION END */
 
 /* PROJECTS SECTION START */
