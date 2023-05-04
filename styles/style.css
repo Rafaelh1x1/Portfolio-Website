@@ -13,25 +13,12 @@
 }
 /* ANIMATIONS */
 
-/* @keyframes loopty-loop {
-  0% {
-    transform: translateX(100rem);
-  }
-  100% {
-    transform: translate(-100rem);
-  }
-} */
-
 @keyframes move-left {
   from {
-    transform: translateX(
-      170%
-    ); /* Move the text 100% of its container width to the right */
+    transform: translateX(170%);
   }
   to {
-    transform: translateX(
-      -170%
-    ); /* Move the text 100% of its container width to the left */
+    transform: translateX(-170%);
   }
 }
 
