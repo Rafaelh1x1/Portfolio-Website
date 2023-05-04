@@ -38,6 +38,8 @@ closeNavEl.addEventListener("click", function () {
   miniSectionItem.classList.remove("flicker-in-1");
 });
 
+// MONILE NAVIGATION BUTTONS STYLING
+
 openNavEl.addEventListener("mouseover", function () {
   openNavEl.style.color = "#101810";
   openNavEl.style.backgroundColor = "#416241";
@@ -57,23 +59,9 @@ closeNavEl.addEventListener("mouseout", function () {
   closeNavEl.style.color = "#416241";
   closeNavEl.style.backgroundColor = "#101810";
 });
-// POTENTIAL CODE
 
-// miniSectionItem.addEventListener("mouseover", function () {
-//   miniSectionItem.style.textShadow =
-//     "0 0 10px #496e49, 0 0 20px #496e49, 0 0 30px #496e49";
-// });
+// SCROLL TO THE CORRECT SECTION
 
-// miniSectionItem.addEventListener("mouseout", function () {
-//   miniSectionItem.style.textShadow = "none";
-// });
-
-// SCREEN SIZE CHANGES
-// if (vw < 742) {
-//   openNavEl.classList.add("hidden");
-// } else if (vw > 742) {
-//   openNavEl.classList.remove("hidden");
-// }
 const scrollLinks = document.querySelectorAll(".scroll-link");
 
 scrollLinks.forEach((link) => {
