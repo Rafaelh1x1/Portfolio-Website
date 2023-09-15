@@ -35,10 +35,10 @@
 @media (max-width: 742px) {
   @keyframes move-left {
     from {
-      transform: translateX(220%);
+      transform: translateX(150%);
     }
     to {
-      transform: translateX(-220%);
+      transform: translateX(-150%);
     }
   }
 
