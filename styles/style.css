@@ -9,7 +9,7 @@
   --description-text: #496e49;
 }
 :root {
-  --font-family-text: "Fira Code";
+  --font-family-text: "VT323";
 }
 /* ANIMATIONS */
 
@@ -19,6 +19,18 @@
   }
   to {
     transform: translateX(-170%);
+  }
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -169,7 +181,7 @@ a:active {
   overflow: hidden;
 }
 .top-header {
-  animation: move-left 10s linear infinite;
+  animation: move-left 120s linear infinite, blink 2s infinite;
   display: inline-block;
   font-family: var(--font-family-text);
   /* background-color: #000103; */
