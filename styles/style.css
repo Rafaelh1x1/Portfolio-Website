@@ -191,7 +191,7 @@ a:active {
   font-weight: 300;
   color: #5a875a;
   margin-top: 1rem;
-  margin-bottom: 15rem;
+  margin-bottom: 5rem;
   border-bottom: #5a875a 0.2rem solid;
   display: flex;
   justify-content: center;
@@ -267,7 +267,7 @@ a:active {
   font-size: calc(3vw + 1em);
 }
 .welcome-section {
-  margin-bottom: 25rem;
+  margin-bottom: 10rem;
 }
 
 /* WELCOME SECTION END */
